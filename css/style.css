@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.spinner-body {
+  width: 4rem;
+  height: 4rem;
+}
+
+.console {
+  width: 20rem;
+  height: 18rem;
+}
+
+.console img {
+  width: 20rem;
+  height: 150px;
+  object-fit: fill;
+}
+
+.console-name {
+  font-size: 26px;
+}
+
+.console:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+a:link {
+  text-decoration: none;
+}
